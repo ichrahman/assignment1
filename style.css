@@ -14,6 +14,7 @@
     font-optical-sizing: auto;
 }
 
+/* header section start */
 
 .header {
     background-image: url(./assets/Hero-bg.png);
@@ -44,6 +45,7 @@
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
+    opacity: 0.7;
 }
 
 .header button {
@@ -56,3 +58,101 @@
     padding: 21px 24px;
     margin-bottom: 45px;
 }
+
+/* header section end */
+
+
+/* Main section start */
+main {
+    margin-top: 74px;
+    width: 100%;
+}
+
+.main-content {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 48px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.content h2 {
+    margin-bottom: 24px;
+    color: #0D1321;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.content p {
+    color: #0D1321;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.one,
+.two,
+.three {
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 10px;
+}
+
+.two {
+    margin: 32px 0;
+}
+
+.one,
+.two,
+.three {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+}
+
+.one h3,
+.two h3,
+.three h3 {
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.one p,
+.two p,
+.three p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 16px 0 32px 0;
+}
+
+.one button,
+.two button,
+.three button {
+    color: #0D1321;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+}
+
+
+
+/* Main section end */
