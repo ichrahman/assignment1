@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+/* default */
+a {
+    cursor: pointer;
+}
 
 /* font */
 
@@ -204,3 +208,105 @@ main {
 }
 
 /* Inspiration section end */
+
+
+/* target section start */
+.target {
+    margin-top: 150px;
+}
+
+.target-content {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.target-content h3 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.target-content p {
+    margin: 24px 0 48px 0;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.cards {
+    display: flex;
+    max-width: 1200px;
+    width: 70%;
+    margin: 0 auto 120px auto;
+    gap: 24px;
+}
+
+.cards img {
+    width: 54px;
+    height: 54px;
+}
+
+.cards h2 {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 22px 0 8px 0;
+}
+
+.cards p {
+    color: #0D1321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.cards a {
+    color: #0D1321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.html,
+.css,
+.javascript {
+    width: 364px;
+}
+
+.html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.javascript {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+/* target section end */
